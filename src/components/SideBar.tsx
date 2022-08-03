@@ -1,5 +1,7 @@
-import { SideBarProps } from "../types";
 import { Button } from "./Button";
+
+import "../styles/sidebar.scss";
+import { SideBarProps } from "../types";
 
 export function SideBar (props: SideBarProps) {
   return (

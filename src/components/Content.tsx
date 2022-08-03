@@ -1,6 +1,8 @@
 import { ContentProps } from "../types";
 import { MovieCard } from "./MovieCard";
 
+import "../styles/content.scss";
+
 export function Content(props: ContentProps) {
   return (
     <div className="container">
